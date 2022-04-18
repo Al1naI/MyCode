@@ -1,0 +1,15 @@
+//Дан угол α градусов. Выведите y = sin(α) + cos(α)
+
+import java.util.Scanner;
+
+class MyProgram {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double a = sc.nextDouble();
+        double ss = Math.toRadians(a);
+        double s = Math.sin(ss);
+        double c = Math.cos(ss);
+        double y = s + c;
+        System.out.print(y);
+    }
+}
