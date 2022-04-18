@@ -1,0 +1,14 @@
+//Подсчет факториала введенного числа
+
+импорт java.util.Сканер;
+публичный класс Main {
+ public static void main(String args[]) {
+ Scanner sc = новый сканер(System.in);
+ длинное число = sc.nextLong();
+ длинный i, факт = 1;
+ для(i = 1; i <= число; i++) {
+ факт = факт * i;
+        }
+ System.out.println("изи пизи, факториал числа " + number + ": "+ fact);
+    }
+}
