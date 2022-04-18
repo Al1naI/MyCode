@@ -1,0 +1,14 @@
+//На вход подаётся два натуральных числа x и y. Выведите на печать прямоугольник из звёздочек размером x*y
+
+import java.util.Scanner;
+class MyNumber {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = 0;
+        int b = 0;
+        while ((b = sc.nextInt()) != 0) {
+            a +=b;
+        }
+        System.out.print(a);
+    }
+}
