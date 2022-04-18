@@ -1,0 +1,15 @@
+//На вход подаётся число секунд, которое прошло с момента начала суток (00:00:00). Выведите текущее время в формате ЧЧ:ММ:СС
+
+import java.util.Scanner;
+
+class MyNumber {
+   public static void main(String[] args) {
+       Scanner sc = new Scanner(System.in);
+       int a = sc.nextInt();
+       int c = (a % 3600) % 60;
+       int m = (a % 3600) / 60;
+       int h = (a % 86400) / 3600;
+       String myVar = h/10 + "" + h%10 + ":" + m/10 + "" + m%10 + ":" + c/10 + "" + c%10;
+       System.out.println(myVar);
+   }
+}
