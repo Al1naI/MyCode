@@ -1,0 +1,13 @@
+//На вход подаётся натуральное число n. Создайте массив натуральных чисел от единицы до n включительно
+
+import java.util.Scanner;
+class MyNumber {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int[] newArray = new int[a];
+        for (int i = 1; i <= a; i++) {
+            System.out.print(i + " ");
+        }
+    }
+}
